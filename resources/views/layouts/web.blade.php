@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -127,49 +127,7 @@
         <!--end header bottom-->
     </header>
     <!--end header-->
-    <!--start page content-->
-    <section id="page-cont">
-        <!--start page title-->
-        <div class="page-title">
-            <div class="container">
-                <div class="page-breadcrumb text-center">
-                    <h2>User Login</h2>
-                    <ul>
-                        <li><a href="#"><i class="icofont-home"></i> Home</a></li>
-                        <li><small>></small></li>
-                        <li>Login</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!--end page title-->
-        <!--start page content wrap-->
-        <div class="page-cont-wrap">
-            <div class="container">
-                <div class="row">
-                    <!--start form content-->
-                    <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-                        <div class="form-cont">
-                            <h3>Login</h3>
-                            <form action="#" method="post">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email*">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password*">
-                                </div>
-                                <button type="submit">Login Now</button>
-                                <h6>Don't have an account? <a href="#">Sign up Now</a></h6>
-                            </form>
-                        </div>
-                    </div>
-                    <!--end form content-->
-                </div>
-            </div>
-        </div>
-        <!--end page content wrap-->
-    </section>
-    <!--end page content-->
+    @yield('content')
     <!--start footer-->
     <footer class="footer">
         <div class="container">
