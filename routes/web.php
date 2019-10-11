@@ -19,7 +19,7 @@ Route::get('/', function () {
 Route::get('/', 'PagesController@index');
 Route::get('/index.html', 'PagesController@index');
 Route::get('/about.html', 'PagesController@about');
-
+Route::get('/contact.html', 'PagesController@contact');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
